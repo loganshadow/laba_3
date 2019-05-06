@@ -1,6 +1,3 @@
-//
-// Created by mikh- on 29.04.2019.
-//
 
 #ifndef LABA_3_CHILD_H
 #define LABA_3_CHILD_H
@@ -15,7 +12,4 @@ public:
     void input();
     void output();
 };
-
-
-
 #endif //LABA_3_CHILD_H
