@@ -1,13 +1,18 @@
 #include <iostream>
 #include "child.h"
+#include "Tiles.h"
+#include "Complex.h"
+#include "Vector.h"
 
 int main() {
+
     //3_1
     child your_child[2];
     your_child[0].input();
     your_child[0].output();
     your_child[1].input();
     your_child[1].output();
+
     //3_2
     Tiles c1;
     c1.brand = "quadro";
@@ -16,10 +21,12 @@ int main() {
     c1.price = 600;
     c1.get_Data();
     std::cout << std::endl;
+
     //3_3
     Complex num;
     num.set_Complex();
     num.get_Complex();
+
     //3_4
     Vector v1;
     Vector v2;

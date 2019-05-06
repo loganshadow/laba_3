@@ -4,6 +4,9 @@
 
 #include <iostream>
 #include "child.h"
+#include "Tiles.h"
+#include "Complex.h"
+#include "Vector.h"
 //3_1
 void child::output() {
     std::cout << "Child data:" << std::endl;
